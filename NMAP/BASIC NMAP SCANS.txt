@@ -1,0 +1,1 @@
+nmap -sC -sV {target ip} OR nmap -r 1-65535  {target ip} or nmap {target ip} -r 1-65535 

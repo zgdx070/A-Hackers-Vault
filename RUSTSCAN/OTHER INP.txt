@@ -1,0 +1,1 @@
+rustscan -a {TARGET IP} -r 1-65535 --ulimit 5000 -- -A -sC

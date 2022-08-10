@@ -1,0 +1,5 @@
+first you hash it
+hashid {name of hash}
+
+hashcat -a 0 -m 0 hash pathtowordlist 
+#or just use an online decrypter its way better😜

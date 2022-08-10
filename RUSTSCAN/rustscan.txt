@@ -1,0 +1,3 @@
+rustscan -a <ip adress>
+for all ports 
+rustscan -a ip address  -- -p- 

@@ -1,0 +1,1 @@
+rustscan -a  {target ip}  -- -v -p- --min-rate 5000 -sV -sC 

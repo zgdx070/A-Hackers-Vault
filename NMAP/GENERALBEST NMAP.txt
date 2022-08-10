@@ -1,0 +1,3 @@
+nmap {target ip} -v -p- --min-rate 5000 -sV -sC  
+ADD -r 1-65535 
+TO SCAN ALL PORTS AND THINGS ITS THE BEST 

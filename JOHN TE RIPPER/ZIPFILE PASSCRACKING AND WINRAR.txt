@@ -1,0 +1,10 @@
+zip2john {nameofzipfile > {anyhashname}
+
+then 
+john -wordlist={name of wordlist to use} {name of hash to crack}
+john --show {name of hash to use }
+
+eg
+zip2john backup.zip > crack
+john -wordlist=/usr/share/wordlists/rockyou.txt crack
+john --show crack

@@ -1,0 +1,13 @@
+
+
+PORT   SERVICES
+21     FTP
+23     TELNET
+22     SSH
+5985   WINRM(Windows Remote management)   
+80     HTTP
+8080   HTTP
+443    HTTPS
+445    SMB
+7680   Pando-pub
+1433   MICROSOFT SQL SERVER 2017
