@@ -1,0 +1,41 @@
+TO FIND SSH PRIVATE EYS SEARCH FOR 
+
+╔══════════╣ Searching ssl/ssh files
+╔══════════╣ Analyzing SSH Files (limit 70)    
+
+IN LINPEAS
+
+
+TO LOG IN WITH SSH YOU CAN USE THE PRIVATE KEYS YOU CAN FIND THEM ON A CONNECTED USER 
+1. nano kay kay_id_rsa or nano name_id_rsa
+2. chmod 600 kay_id_rsa
+3. then ssh -i kay_id_rsa kay@ipaddress
+4. if it asks for a passphrase then use "johntheripper"
+5. /usr/share/john/ssh2john.py kay_id_rs > kay.txt  
+6. then use john kay.txt --wordlist=/home/kali/rockyou.txt
+7.then when passphrase found use ssh -i kay_id_rsa kay@ipaddress
+8. enter passphrase
+
+
+
+
+
+
+ONCE ENTERED A TERMINAL USE THE CAT COMMAND TO FIND AND GREP THINGS LIKE
+IF YOUR LOOKING FOR A PASSWORD TYPE
+
+********USE ls -la commmand to show history vey important pls**************
+cat etc/passwd
+use the chmod + x filename to make it executable
+
+use the scp command to transfer files to another the ssh server
+
+with 
+scp /opt/linPeas/linpeas.s jan@ip address:/dev/shm 
+THEN USE THE use the chmod + x filename to make it executable
+
+WHEN RUNNING A FILE, SH OR SOFTWARE ON SSH 
+RUN IT WITH just ./
+eg ./linpeas.sh 
+TO OUTPUT IT TO A FILE DO THE 
+./linpeas.sh | tee exploit.log

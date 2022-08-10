@@ -1,0 +1,30 @@
+FOR MORE UNDERSTANDING ON DNS ENUM WATCH THIS VIDEO
+https://www.youtube.com/watch?v=zDf2hpCu7D0
+OR TYPE 
+trick htb 
+it does not matter if you are not using htb if you want to learn it use the video as an example
+
+
+first use this to add a domain 
+echo "10.10.11.170  panda.htb panda" | sudo tee -a /etc/hosts 
+or going to the 
+/etc/hosts with the 
+sudo vi /etc/hosts and adding it
+
+
+USE THE
+dns enum which the following
+*****FIND ANY DOMAIN OTHER THAN PANDA.HTB AND ADD IT TO YOUR ETC HOST*******
+dig ns panda.htb @ipadress
+dig mx panda.htb @ipadress
+dig any panda.htb @ipadress
+dig all panda.htb @ipadress
+dig axfr panda.htb @ipadress
+*****FIND ANY DOMAIN OTHER THAN PANDA.HTB AND ADD IT TO YOUR ETC HOST*******
+or other commands
+ USE THE FOUND SUBDOMAIN TO FIND OTHER ONES  GO TO MY FUFF FOLDER
+
+IF YOU DO GO TO THE
+/ETC/HOSTS AND ADDING PREPOD.TRICKJ.HTB 
+10.10.11.166 TRICK.HTB TRICK PREPOD.TRICK.HTB
+USE THE FOUND SUBDOMAIN TO FIND OTHER ONES  GO TO MY FUFF FOLDER

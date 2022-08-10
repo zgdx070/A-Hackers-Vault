@@ -1,0 +1,17 @@
+mysql  -h   {Target ip} -u root 
+important commands 
+SHOW databases;
+TO SELECT, VIEW/USE A DATABASES
++--------------------+
+| Database           |
++--------------------+
+| target table       |               
+| targettable        |
+| mysql              |
+| performance_schema |
++--------------------+
+ENETER use {Target database};
+to show available tables in database
+ENETR SHOW tables;
+to use it 
+ENETER SELECT * FROM {Target table}

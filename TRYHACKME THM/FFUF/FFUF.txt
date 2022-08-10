@@ -1,0 +1,4 @@
+ffuf -u http://trick.htb -w /home/kali/sec/Discovery/DNS/subdomains-top1million-5000.txt -H 'Host: preprod-FUZZ.trick.htb' -fw 1697
+
+FIRST ADD THE FOUND SUBDOMAIN TO YOUR VI ETC HOSTS
+ANY SUBDOMAIN FOND SHOULD BE ADDED INBETWEEN THE PREPOD
