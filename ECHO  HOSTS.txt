@@ -1,0 +1,3 @@
+echo "10.10.11.143 office.paper" | sudo tee -a /etc/hosts
+Queenofblad3s!23Q
+recyclops

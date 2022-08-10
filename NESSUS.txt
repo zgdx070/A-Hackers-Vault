@@ -1,0 +1,4 @@
+TYPE start nessusd.service
+THEN GO TO
+
+https://kali:8834/

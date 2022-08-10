@@ -1,0 +1,4 @@
+change the ip first 
+then the port
+
+-nc nvlp 4444

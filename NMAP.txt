@@ -1,0 +1,16 @@
+RUN AN NMAP PORTSCAN FORMAT= EITHER nmap -sC -Pn -oN  nmap/initial YOUR TARGET IP OR  nmap -sC -sV-oN  nmap/initial YOUR TARGET IP OR nmap -sC -p- -oN  nmap/all_ports 10.10.246.120
+
+YOU CAN ALSO TRY nmap -A -T4 <machine ip> to speed  things up
+
+
+
+TERMS 
+nmap flag	Description
+-sV	Attempts to determine the version of the services running
+-p <x> or -p-	Port scan for port <x> or scan all ports
+-Pn	Disable host discovery and just scan for open ports
+-A	Enables OS and version detection, executes in-build scripts for further enumeration 
+-sC	Scan with the default nmap scripts
+-v	Verbose mode
+-sU	UDP port scan
+-sS	TCP SYN port scan

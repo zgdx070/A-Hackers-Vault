@@ -1,0 +1,1 @@
+sudo rustscan -a {target ip} -- -sC -sV

@@ -1,0 +1,7 @@
+knock 10.10.193.44 1111 2222 3333 4444
+
+ftp  10.10.193.44
+then type anonymous to login
+
+
+then to get a file from there type get note.txt 

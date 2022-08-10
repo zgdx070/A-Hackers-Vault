@@ -1,0 +1,68 @@
+🔴 How To Be 100%  Anonymous In 2018 By @Hackerstech1
+
+Hello haxchip Members! In this thread i will be talking about ways to be anonymous from my knowledge!
+This thread will help a lot of you noobs!
+You can put all these ways together at once and you will be like 98% anonymous while hacking and doing blackhat activity...
+This whole guide is written by me. every piece of it is from my knowledge. i can guarentee i'm 100% right  Yeye 
+
+1. VPN that DOES NOT keep any logs!
+I think MullVad VPN is best as it doesn't keep logs and its very cheap and fast!
+Can't beat that...
+A VPN will make sure your secure while hacking online.
+It hides your IP address and makes sure you can't be tracked.
+But a VPN isn't the ONLY thing you should use while blackhat hacking or trying to protect yourself.
+You should use other tools too to remain 99.9%!
+I recommend only buying a VPN with Bitcoin so the payment cant be traced.
+
+2. Proxychains on a linux system like kali linux or Tails
+You should use proxychains to stay anonymous with everything else added too.
+you can get proxys by scraping or grabbing them. 
+I highly recommend buying like a list of 25 "PRIVATE" socks5 proxy servers.
+Private ones don't keep logs but if you get free ones that do keep logs then only connect to the proxy if you have your VPN on that doesn't have logs.
+I recommend making your own proxy grabber that will only grab elite proxies that are mostly all alive.
+If you can't code your own then you should use netghost to get proxies. It runs on windows but you can always upload it to a file sharing site and get it on your own linux system. The proxy chains location on kali linux is /etc/proxychains.conf [Command is "leafpad /etc/proxychains.conf". Add proxies there :).
+
+3. Tails to keep anonymous
+You can use all the anonymous tips above on a Tails system also.
+Make sure to run tails off a live USB or DVD. It will ensure more anonimitity.
+You can use tor with tails too so it will make you more hidden.
+Not much to say with tails.
+
+4. Virtual Machines
+You can stack virtual machines on top each other with tails. Then use everything else to hide.
+Once you do something really illegal then delete all data and be gone.
+You can also use CCleaner to clean all logs on system. 
+Even delete VM iso file and re download on a different IP.
+
+5. Coffee Shops And Such
+You can use a raspberry PI connected to a Public wifi.
+Make sure to stay off property and go like across the street while connected.
+Use all the stuff above while at the open wifi.
+You will remain anonymous!
+
+6. CCleaner 
+You can use CCleaner too delete all system logs and just all types of data
+It will clean everything out your PC then after you use CCleaner make sure to reinstall it again (Not really needed just an extra layer).
+
+7. Browser Windows
+If your using chrome or any other browser in the earth then make sure not to maximize your browser window!
+While using any browser like Tor, Firefox, Chrome or others make sure to keep it small....
+People can track you by your browser window!
+Keep safe!
+
+8. MAC Address
+Change your mac address so you can't be tracked using tools like macchanger on any linux op.
+Your mac address can be used to get a location on your PC.
+Make sure to do this too.
+
+9. Webcam
+Make sure to tape your webcam so none of our fellow Police man or any other person can see you can get pictures.
+Short one XD
+
+That's It Guys I Hope You Like This Post And You Are Enjoying Our Channel
+
+Author:-- @HackChipAdmin
+
+⭕️ Don't Copy Paste Without Giving Any Credit To
+
+➖➖🎖@hackerstech1🎖➖➖

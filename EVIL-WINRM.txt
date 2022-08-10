@@ -1,0 +1,5 @@
+FIRST COPY THIS REPOSITORY
+
+https://github.com/Hackplayers/evil-winrm.git
+THEN TO CONNECT TO WINRM WITH 
+evil-winrm -i {TARGET IP OF WEBSITE} -u administrator -p badminton
